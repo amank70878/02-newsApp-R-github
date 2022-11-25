@@ -1,0 +1,40 @@
+{
+  /*
+
+  prevbtn = async () => {
+    this.setState({ page: this.state.page - 1 });
+    this.loadUrl();
+  };
+
+  nextbtn = async () => {
+    this.setState({ page: this.state.page + 1 });
+    this.loadUrl();
+  };
+
+  <span className="mx-3">
+              page : {this.state.page} /{" "}
+              {Math.ceil(this.state.totalResults / this.props.pageContentSize)}
+            </span>
+
+    <div className="container my-2 d-flex justify-content-between">
+            <button
+              disabled={this.state.page <= 1}
+              type="button"
+              className="btn btn-secondary"
+              onClick={this.prevbtn}
+            >
+              Previous
+            </button>
+            <button
+              disabled={
+                this.state.page + 1 >
+                Math.ceil(this.state.totalResults / this.props.pageContentSize)
+              }
+              type="button"
+              className="btn btn-secondary"
+              onClick={this.nextbtn}
+            >
+              Next
+            </button>
+          </div> */
+}

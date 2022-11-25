@@ -6,13 +6,10 @@ export class NewsItems extends Component {
       this.props;
     return (
       <div>
-        <div className="card" style={{ width: "380px" }}>
-          <span
-            className="position-absolute top-0 translate-middle badge bg-danger"
-            style={{ zIndex: 1, left: "349px" }}
-          >
-            {source}
-          </span>
+        <div className="card" style={{ width: "380px",}}>
+          <div style={{ zIndex: 1,  position: 'absolute', right: '-37px' }}>
+            <span className="translate-middle badge bg-danger">{source} </span>
+          </div>
           <img
             src={
               imageUrl
