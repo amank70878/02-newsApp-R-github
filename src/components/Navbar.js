@@ -65,11 +65,13 @@ const Navbar = () => {
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
+                disabled
               />
-              <Link to="/search">
+              <Link to="#">
                 <button
                   className="btn btn-outline-success"
                   type="submit"
+                  disabled
                 >
                   Search
                 </button>
